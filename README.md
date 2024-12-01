@@ -1,5 +1,4 @@
-# Sistema de Gerenciamento para Instituição Filantrópica
-de Apoio a Crianças Atípicas - EloAzul
+# Sistema de Gerenciamento para Instituição Filantrópica de Apoio a Crianças Atípicas - EloAzul
 ## Descrição
 Intruções gerais
 
