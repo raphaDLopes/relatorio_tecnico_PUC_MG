@@ -1,0 +1,47 @@
+/* Container do menu */
+nav {
+    display: flex; /* Organiza os itens horizontalmente */
+    justify-content: center; /* Centraliza os links */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #007bff; /* Fundo azul */
+    padding: 10px 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    position: sticky; /* Fixa o menu no topo */
+    top: 0; /* Para o sticky funcionar */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+}
+
+/* Links do menu */
+nav a {
+    color: #fff; /* Cor do texto branco */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1rem; /* Tamanho do texto */
+    margin: 0 15px; /* Espaçamento horizontal entre os links */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse nos links */
+nav a:hover {
+    color: #ffc107; /* Cor dourada no hover */
+    text-shadow: 0 0 5px rgba(255, 193, 7, 0.7); /* Efeito de brilho */
+}
+
+/* Botão Logout */
+nav button {
+    width: 100px; /* Define a largura fixa do botão */
+    padding: 5px 10px; /* Mantém o padding ajustado */
+    font-size: 0.9rem; /* Tamanho do texto */
+    color: #fff;
+    background-color: #dc3545; /* Vermelho */
+    border: none;
+    border-radius: 4px; /* Bordas levemente arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Centraliza o texto no botão */
+}
+
+nav button:hover {
+    background-color: #c82333; /* Vermelho mais escuro no hover */
+}
+
+
