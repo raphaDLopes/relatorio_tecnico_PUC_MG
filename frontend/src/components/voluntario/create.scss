@@ -1,0 +1,89 @@
+/* Container do formulário */
+.div-cadastro-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #007bff; /* Azul */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos */
+}
+
+/* Campos de entrada */
+form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Foco nos campos de entrada */
+form input:focus {
+    border-color: #007bff; /* Azul */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Botões */
+form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botão de Cadastrar/Alterar */
+form button[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+/* Botão de Cancelar */
+form button[type="button"] {
+    background-color: #dc3545; /* Vermelho */
+    color: #fff;
+}
+
+form button[type="button"]:hover {
+    background-color: #c82333; /* Vermelho mais escuro */
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    div {
+        padding: 15px;
+    }
+
+    form input {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+}
